@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-im1 = cv2.imread('image/asia.jpg')
+im1 = cv2.imread('image/asi.jpg')
 im2 = cv2.imread('image/ita.jpg')
 
 im_v = cv2.vconcat([im1, im1])
